@@ -5,7 +5,7 @@ from django.views import generic
 from django.utils import timezone
 
 from .models import Choice, Question
-
+# method defination
 #def index(request):
 	#latest_question_list = Question.objects.order_by('-pub_date')[:5]
 	#context = {'latest_question_list': latest_question_list}
